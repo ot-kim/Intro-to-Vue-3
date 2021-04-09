@@ -23,5 +23,4 @@ const app = Vue.createApp({
             this.image = variantImage
         }
     }
-
 })

@@ -31,7 +31,7 @@
                 :style="{ backgroundColor: variant.color }"
                 @mouseover="updateImage(variant.image)">
               </div>
-              <button class="button" v-on:click="addCart">Add to Cart</button>
+              <button class="button" @click="addCart">Add to Cart</button>
             </div>
           </div>
         </div>
