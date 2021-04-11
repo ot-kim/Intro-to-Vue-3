@@ -29,7 +29,7 @@
                 :key="variant.id"
                 class="color-circle"
                 :style="{ backgroundColor: variant.color }"
-                @mouseover="updateImage(index)">
+                @mouseover="updateVariant(index)">
               </div>
               <button 
                 :class="{ disabledButton: !inStock }"
